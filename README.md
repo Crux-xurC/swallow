@@ -31,7 +31,7 @@ swallow was designed to be started by Citlalpol, not by hand: a destination of `
 the request (method, path, the names of its headers, the size of its body — never their values) is recorded as captured: the
 material for deciding. Needs python3.
 
-**Status:** a first, plain version (2026-11-24): HTTP/1.1, `send` / `expect` / inline or file replies, the undecided default.
+**Version 0.1.0** (2026-11-25), a development release. **Status:** a first, plain version (2026-11-24): HTTP/1.1, `send` / `expect` / inline or file replies, the undecided default.
 Not yet: `fire`, `verify`, `draft`, TLS, other protocols. Since Citlalpol v0.8 Citlalpol starts no programs (a `to` reaches only a
 [zoozve](https://github.com/Crux-xurC/zoozve) gate), so nothing starts `swallow serve` today; how it is reached from now on is open —
 see [docs/design.md](docs/design.md).
