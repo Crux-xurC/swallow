@@ -1,0 +1,11 @@
+# Build output
+/_build/
+/deps/
+*.ez
+/swallow
+
+# Captured requests never belong here (they may hold secrets)
+/captured/
+
+# Local agent settings
+/.claude/
