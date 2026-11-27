@@ -1,5 +1,12 @@
 # swallow
 
+> **Given up (2026-11-27).** swallow answered for the outside behind Citlalpol. Since Citlalpol v0.8 Citlalpol starts no programs and
+> making what answers is outside its scope, so nothing starts `swallow serve`. Answering a refused connection would also make the
+> program believe it got out, which blurs the wall. The name went to Citlalpol itself: `citl swallow` gathers the attempts that were
+> refused into a small table, and `citl digest` writes a person's decision into `access.json`
+> ([Citlalpol's design](https://github.com/Crux-xurC/Citlalpol/blob/main/docs/design.md#from-the-records-to-accessjson-swallow-digest-residual)).
+> What follows is kept as it was written.
+
 Design: [docs/design.md](docs/design.md) (the Japanese original: [docs/ja/](docs/ja/))
 
 swallow takes the connections [Citlalpol](https://github.com/Crux-xurC/Citlalpol) hands it and does what needs to know a protocol:

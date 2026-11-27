@@ -9,6 +9,10 @@ the two differ, the code is right, then the original. How to use it: [../README.
 > ([Citlalpol's design, "What moved out"](https://github.com/Crux-xurC/Citlalpol/blob/main/docs/design.md#what-moved-out)). So
 > `swallow serve` (stdio) has no one to start it today. How swallow is reached from now on — for example listening on a local port
 > behind a zoozve gate — is open. What follows is the design as written, which still holds for what swallow does with a request.
+>
+> **Given up (2026-11-27).** It is not reached any more: answering a connection Citlalpol refused would make the program believe it got
+> out. The name went to `citl swallow` (the refused attempts as a small table) and `citl digest` (a decision written into
+> `access.json`) in [Citlalpol's design](https://github.com/Crux-xurC/Citlalpol/blob/main/docs/design.md#from-the-records-to-accessjson-swallow-digest-residual).
 
 ## What it is
 
